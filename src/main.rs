@@ -5,8 +5,9 @@
 
 // hashmap and vector that allow a user to store names and departments
 
-
+pub mod stats
 
 fn main() {
     println!("Hello, world!");
 }
+
