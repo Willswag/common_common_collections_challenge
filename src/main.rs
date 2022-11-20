@@ -5,9 +5,14 @@
 
 // hashmap and vector that allow a user to store names and departments
 
-pub mod stats
+pub mod stats;
 
 fn main() {
-    println!("Hello, world!");
+
+    let v:Vec<u32> = vec![1,1,1,2,5,17,4];
+    
+    let avg = crate::stats::stats::mean(&v);
+    
+    println!("avg {avg}");
 }
 
